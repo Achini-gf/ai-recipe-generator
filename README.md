@@ -1,3 +1,4 @@
+ 
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -41,7 +42,7 @@ export default tseslint.config([
 
 You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
+js
 // eslint.config.js
 import reactX from 'eslint-plugin-react-x'
 import reactDom from 'eslint-plugin-react-dom'
@@ -66,4 +67,37 @@ export default tseslint.config([
     },
   },
 ])
-```
+
+
+# ai-recipe-generator
+AI-powered recipe generator web app built with React, AWS Amplify, and Amazon Bedrock (Claude 3 Sonnet). Users enter ingredients and get creative recipe suggestions instantly.
+# 🍳 AI Recipe Generator
+
+An AI-powered recipe generator web application built with **React + TypeScript (Vite)**, **AWS Amplify**, and **Amazon Bedrock (Claude 3 Sonnet)**.  
+
+Users can enter a list of ingredients, and the app will generate delicious recipe ideas based on the input.
+
+---
+
+## 🚀 Features
+- React + TypeScript frontend (Vite)
+- Serverless backend with **AWS Amplify Gen 2**
+- AI-generated recipes using **Amazon Bedrock (Claude 3 Sonnet)**
+- Authentication and hosting with Amplify
+- Deployed via GitHub → Amplify CI/CD
+
+---
+
+## 🛠️ Setup & Development
+
+### Prerequisites
+- Node.js (v18 or newer recommended)
+- NPM or Yarn
+- AWS commercial account with Bedrock access
+- Amplify CLI (`npm install -g @aws-amplify/cli`)
+
+### 1. Clone this repository
+```bash
+git clone https://github.com/<Achini-gf>/ai-recipe-generator.git
+cd ai-recipe-generator
+ 8b11ec32b1bfb38f37a4eaf490f2a02ddf2bfbd7
