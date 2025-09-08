@@ -27,5 +27,5 @@ Users can enter a list of ingredients, and the app will generate delicious recip
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/<your-username>/ai-recipe-generator.git
+git clone https://github.com/<Achini-gf>/ai-recipe-generator.git
 cd ai-recipe-generator
